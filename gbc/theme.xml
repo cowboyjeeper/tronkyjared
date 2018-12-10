@@ -1,0 +1,35 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../simple.xml</include>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<path>./art/system.jpg</path>
+		</image>
+
+		<image name="logo">
+			<path>./art/logo.svg</path>
+        </image>
+		
+	</view>
+
+	<view name="basic, detailed">
+	
+		<image name="controller" extra="true">
+			<path>./art/controller.svg</path>
+			<pos>0.875 0.08</pos>
+			<maxSize>0.125 0.14</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+
+		<image name="logo">
+			<path>./art/logo.svg</path>
+			<pos>0.025 0.079</pos>
+			<maxSize>0.55 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+
+	</view>
+	
+</theme>

@@ -1,0 +1,165 @@
+<!--
+theme name:		simple
+version:		1.4
+author:			nils bonenberger
+email:			nilsbyte@nilsbyte.de
+website:		www.nilsbyte.de
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<view name="system">
+	
+		<image name="background" extra="true">
+			<size>0 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+
+        <helpsystem name="help">
+            <textColor>ffffff</textColor>
+            <iconColor>ffffff</iconColor>
+        </helpsystem>
+	</view>
+
+    <view name="basic, detailed">
+
+        <helpsystem name="help">
+            <textColor>000000</textColor>
+            <iconColor>000000</iconColor>
+        </helpsystem>
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<color>ffffff</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/FFF_Tusj.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.125 0.04</size>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount">
+			<color>ffffff</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/FFF_Tusj.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.14 0.04</size>
+		</text>
+
+		<text name="md_description">
+			<color>ffffff</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/FFF_Tusj.ttf</fontPath>
+			<fontSize>0.028</fontSize>
+			<pos>0.36 .577</pos>
+			<size>0.63 0.35</size>
+		</text>
+		
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>ffffff</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/FFF_Tusj.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0 0.04</size>
+		</datetime>
+		
+		<image name="header" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0.16</size>
+			<path>./art/mid.png</path>
+		</image>
+
+		<image name="footer" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./art/mid.png</path>
+		</image> 
+
+		<image name="background">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/dark.png</path>
+		</image> 
+
+		<textlist name="gamelist">
+			<selectorColor>393a3b</selectorColor>
+			<selectedColor>ff0000</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>000000</secondaryColor>
+			<fontPath>./art/FFF_Tusj.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<!-- <scrollSound>./art/sound.wav</scrollSound> -->
+		</textlist>	
+
+        <image name="md_image">
+			<pos>0.36 0.172</pos>
+			<maxSize>0.3 0.385</maxSize>
+			<origin>0 0</origin>
+		</image>
+	</view>
+
+	<view name="basic">		
+        <textlist name="gamelist">
+			<pos>0 0.172</pos>
+			<size>1 0.75</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+	</view>
+
+	<view name="detailed">	
+        	
+        <textlist name="gamelist">
+			<pos>0 0.172</pos>
+			<size>0.35 0.75</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>	
+        
+		<text name="md_lbl_rating">
+			<pos>0.68 0.21</pos>
+			<size>0.15 0.028</size>
+		</text>
+		
+		<text name="md_lbl_releasedate">
+			<pos>0.68 0.25</pos>
+			<size>0.15 0.028</size>
+		</text>
+		
+		<text name="md_lbl_developer">
+			<pos>0.68 0.29</pos>
+			<size>0.15 0.028</size>
+		</text>
+
+		<text name="md_lbl_publisher">
+			<pos>0.68 0.33</pos>
+			<size>0.15 0.028</size>
+		</text>
+		
+		<text name="md_lbl_genre">
+			<pos>0.68 0.37</pos>
+			<size>0.15 0.028</size>
+		</text>
+		
+		<text name="md_lbl_players">
+			<pos>0.68 0.41</pos>
+			<size>0.15 0.028</size>
+		</text>
+
+		<text name="md_lbl_lastplayed">
+			<pos>0.68 0.45</pos>
+			<size>0.15 0.028</size>
+		</text>
+
+		<text name="md_lbl_playcount">
+			<pos>0.68 0.49</pos>
+			<size>0.15 0.028</size>
+		</text>
+	</view>
+	
+</theme>

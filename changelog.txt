@@ -1,0 +1,7 @@
+Special thanks to HerbFargus & joolswills as I used much of thier data as a starting point for my own theme.
+
+https://github.com/RetroPie/es-theme-carbon
+https://github.com/HerbFargus/es-theme-tronkyfran
+
+12-09-2018
+v1.0 Initial version
